@@ -1,0 +1,154 @@
+.container means class="container"
+#container means id="container"
+
+*please do not name anything body. be specific with body (ie login-body)
+
+========================================
+
+Table Of Contents
+
+1. General Contents
+2. Recipe Properties
+3. Buttons
+4. Forms
+[#] Line Number of CSS in mainstyles.css
+=======================================
+current colors:
+
+soft grey-   #555
+white -      #fff
+
+teal -          #56907ece;
+dark green -    #304b39;, #304b39e7;
+dark green -    #378541d7
+bright green-   #6fbb82
+
+input teal-     #d9e9fa;
+terracotta-     #893410;
+red-            red
+========================================
+
+╔═╦═╦═╦═╦╦╦═╦╗─
+║║║═╣║║═╣╔╣═║║─
+╠╗║═╣║║═╣║║║║╚╗
+╚═╩═╩╩╩═╩╝╚╩╩═╝
+
+«« GENERAL CONTENT | General Content »»
+
+► WHITE BACKGROUND BOX  
+--
+.container{} 
+
+
+► MAIN HEADER      
+-- ie: My Recipes, Welcome, Explore Recipes
+
+h2{}    
+
+► Main Header Underline  
+--
+ .borderbox{}
+
+
+
+► SECONDARY HEADER 
+-- ie: Cheese Pizza (Recipe Titles)
+
+h3{}
+
+
+► DESCRIPTIONS AND GENERAL TEXT
+--
+p {}
+
+
+
+========================================
+========================================
+
+╔╦╦═╦═╦╦═╦═╗
+║╔╣═╣╔╣║║║═╣
+║║║═╣╚╣║╔╣═╣
+╚╝╚═╩═╩╩╝╚═╝
+
+► SERVING SIZES
+--ie: font for serving size, total time, prep time, etc
+.servings{}
+
+
+► INGREDIENTS
+-- 
+.ingredients{}
+
+
+► INSTRUCTIONS CONTAINER / LIST
+--
+.instructions{}
+.instructions ol li{} 
+
+
+========================================
+========================================
+
+╔╗╔╗╔╦══╦══╦═╦═╦═╗
+║╚╣║║╠╗╔╩╗╔╣║║║║╚╣
+║║║╚╝║║║─║║║║║║╠╗║
+╚═╩══╝╚╝─╚╝╚═╩╩╩═╝
+«« B U T T O N S | Buttons  »»
+
+► STEP BY STEP INSTRUCTIONS btn
+--
+.steps-btn{}  
+.steps-btn:hover{}
+
+
+► GENERAL BUTTON
+button{} (follows <button> tag)
+button:hover{}
+
+
+► LOGIN BUTTON / REGISTER BUTTON DEFAULT
+.login-btn{}
+
+
+
+========================================
+========================================
+
+
+╔═╦═╦╦╦══╦═╗
+║═╣║║╔╣║║║╚╣
+║╔╣║║║║║║╠╗║
+╚╝╚═╩╝╚╩╩╩═╝
+
+«« FO R M S | Forms  »» 
+
+► GROUPING FORM/INPUT
+-- a div to hold both form and input
+-- ie: Password: [  textarea   ]
+--
+.form-input-group{}
+
+► LABEL 
+--what describes the input. works for <label> tag
+label {}
+
+
+
+► INPUT (where text is TYPED INTO)
+-- works for <input> tag
+input{}
+
+
+► LOGIN BTN
+-- for both register & login (Login)
+.login-btn 
+
+
+
+►ALERTS
+-- 
+#alert{}
+
+
+

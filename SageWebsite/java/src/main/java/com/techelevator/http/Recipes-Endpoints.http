@@ -1,0 +1,64 @@
+### Send GET request
+GET http://localhost:9000/recipes
+Content-Type: application/json
+
+### Send GET request
+GET http://localhost:9000/recipes/1/creator
+Content-Type: application/json
+
+### Send GET request for featured recipes
+GET http://localhost:9000/featured
+Content-Type: application/json
+
+### Send POST request with json body
+POST http://localhost:9000/recipes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTY5NjI4MTAyMX0.-0wk-Z_3l8RwEkLam6Ec9iqG7SxIS7EoyPIdJZsmm8tDh2KCQjyBNSCpmxMSG36pdyC4L6od0SxJ58Ni5xTHxw
+
+{
+  "recipeName": "TEST",
+  "description": "TESTING",
+  "servingSize": 4.0,
+  "keywords": "TESTING",
+  "ingredients": [
+    {
+      "ingredient": "TESTING"
+    },
+    {
+      "ingredient": "TESTING"
+    }
+  ],
+  "steps": [
+  {
+    "rank": 1,
+    "instruction": "TESTING"
+  },
+  {
+    "rank": 2,
+    "instruction": "TESTING"
+  }
+  ],
+  "imgUrl": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2427&q=80",
+  "tags": [
+    {
+      "tag": "TESTING"
+    },
+    {
+      "tag": "TESTING"
+    }
+  ],
+  "featured": true,
+  "published": true
+}
+
+### Send PUT request with json body
+PUT http://localhost:9000/recipes/10
+Content-Type: application/json
+
+{
+  "tag": "Updated"
+}
+
+### Send DELETE request with tagId
+DELETE http://localhost:9000/recipes/10
+Accept: application/json

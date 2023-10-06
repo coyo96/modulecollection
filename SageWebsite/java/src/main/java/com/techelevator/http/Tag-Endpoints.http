@@ -1,0 +1,23 @@
+### Send GET request
+GET http://localhost:9000/tags
+Content-Type: application/json
+
+### Send POST request with json body
+POST http://localhost:9000/tags
+Content-Type: application/json
+
+{
+  "tag": "Nut-Free"
+}
+
+### Send PUT request with json body
+PUT http://localhost:9000/tags/10
+Content-Type: application/json
+
+{
+  "tag": "Updated"
+}
+
+### Send DELETE request with tagId
+DELETE http://localhost:9000/tags/10
+Accept: application/json

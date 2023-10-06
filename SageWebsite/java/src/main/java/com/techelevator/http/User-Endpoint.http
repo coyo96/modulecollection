@@ -1,0 +1,18 @@
+### Send POST request with json body
+POST http://localhost:9000/login
+Content-Type: application/json
+
+{
+  "username": "user",
+  "password": "password"
+}
+
+### Login
+POST http://localhost:9000/login
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTY5NjI4MTAyMX0.-0wk-Z_3l8RwEkLam6Ec9iqG7SxIS7EoyPIdJZsmm8tDh2KCQjyBNSCpmxMSG36pdyC4L6od0SxJ58Ni5xTHxw
+Content-Type: application/json
+
+{
+  "username": "user",
+  "password": "password"
+}

@@ -1,0 +1,9 @@
+### GET my meals
+GET http://localhost:9000/meals
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTY5NjYwNzg2OH0.OBLQeSYQnBmvzwH4_Q_08z0WEAMvI4w_rJtHC_2I7sWgITCYwniv19KbU25wwm-e3g4QzRSvpnPMZ0AsAcf97w
+
+### GET meal 1
+GET http://localhost:9000/meals/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTY5NjYwNzg2OH0.OBLQeSYQnBmvzwH4_Q_08z0WEAMvI4w_rJtHC_2I7sWgITCYwniv19KbU25wwm-e3g4QzRSvpnPMZ0AsAcf97w
